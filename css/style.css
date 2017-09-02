@@ -27,17 +27,25 @@ Text Domain:
 }
 
 /* GENERAL STYLES */
+.content {
+    background-color: #fff;
+}
+
 .no-margin {
     margin: 0;
 }
 
 .site-section {
     background-color: #fff;
+    background-size: cover!important;
 }
 
 .site-section.white-bg {
     background: url("../img/backgrounds/white.jpg") repeat center center;
-    background-size: cover;
+}
+
+.site-section.black-bg {
+    background: url("../img/backgrounds/black.jpg") repeat center center;
 }
 
 .heading {
@@ -87,6 +95,28 @@ Text Domain:
     -o-transform: translateY(-50%);
 }
 
+.eq-height-cols {
+    overflow: hidden;
+
+}
+
+.eq-height-cols div[class*=col-] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.eq-height-cols-table {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.eq-height-cols-table div[class*=col-] {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
 /* NAVBAR */
 .navbar {
     height: 100px;
@@ -95,10 +125,16 @@ Text Domain:
 
 /* BANNER */
 .banner {
+    font-family: 'CovesBold', sans-serif;
     min-height: calc(100vh - 100px);
 }
 
-.banner::before {
+.banner .container {
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner:before {
     content: '';
     position: fixed;
     width: 100%;
@@ -111,16 +147,36 @@ Text Domain:
     z-index: -1;
 }
 
-.banner h1 {
-    font-family: 'CovesBold', sans-serif;
-    font-size: 7.2vw;
-    position: relative;
+.banner .row {
+    display: table;
+    width: 100%;
 }
 
-.banner h1::after {
+.banner div[class*=col-] {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+.banner h1 {
+    font-size: 7.2vw;
+}
+
+.banner h1:after {
     content: '';
+    position: absolute;
+    right: -2px;
+    top: 0;
     display: block;
-    width: ;
+    width: 4px;
+    height: 100%;
+    background-color: #99cc33;
+}
+
+.banner .right-side-text p {
+    margin: 0;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 @media(min-width: 1800px) {
@@ -133,20 +189,20 @@ Text Domain:
 .why-us .heading {
 }
 
-.why-us .heading::before,
-.why-us .heading::after {
+.why-us .heading:before,
+.why-us .heading:after {
     content: '';
     position: absolute;
     top: -37px;
 }
-.why-us .heading::before {
+.why-us .heading:before {
     left: 135px;
     height: 38px;
     width: 130px;
     border-left: 4px solid #99cc33;
     border-top: 4px solid #99cc33;
 }
-.why-us .heading::after {
+.why-us .heading:after {
     left: 193px;
     height: 60px;
     width: 72px;
@@ -174,15 +230,6 @@ Text Domain:
     max-width: 260px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.why-us .row {
-    overflow: hidden;
-}
-
-.why-us div[class*=col-] {
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
 }
 
 .why-us .col-sm-4 p {
@@ -227,6 +274,87 @@ Text Domain:
 
 .why-us .col-sm-4:nth-of-type(3) img {
     left: 25%;
+}
+
+/* WHY MEXICO */
+.why-mex {
+    position: relative;
+    overflow: hidden;
+}
+
+.why-mex h1 {
+    padding-left: 30px;
+    position: relative;
+}
+
+.why-mex h1:before,
+.why-mex h1:after {
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+.why-mex h1:before {
+    top: -37px;
+    left: 113px;
+    height: 38px;
+    width: 90px;
+    border-left: 4px solid #99cc33;
+    border-right: 4px solid #99cc33;
+    border-top: 4px solid #99cc33;
+}
+
+.why-mex h1:after {
+    top: 49px;
+    left: 113px;
+    height: 30px;
+    width: 90px;
+    border-left: 4px solid #99cc33;
+    border-right: 4px solid #99cc33;
+    border-bottom: 4px solid #99cc33;
+}
+
+.why-mex h1 .green-line {
+    border-right: 4px solid #99cc33;
+    height: 48px;
+    position: absolute;
+    top: 1px;
+    left: 199px;
+}
+
+.why-mex .col-sm-7 {
+    padding: 0;
+}
+
+.why-mex .img-bg {
+    width: 100%;
+    background: url("../img/backgrounds/desk.jpg") no-repeat center center;
+    background-size: cover!important;
+}
+.why-mex .box-container {
+    z-index: 1;
+    right: calc(100% - 40vw);
+    position: relative;
+    width: 100%;
+}
+
+.why-mex .white-box {
+    font-family: 'ModernM', sans-serif;
+    font-size: 16px;
+    background-color: rgba(255,255,255,.8);
+    padding: 120px 35px;
+    margin: 0 auto;
+    max-width: 1170px;
+    text-shadow: 0 0 .5px #000;
+}
+
+/* SERVICES */
+.services {
+    margin-top: 50px;
+}
+
+.services h1 {
+    padding-left: 30px;
 }
 
 @media(max-width: 767px) {
