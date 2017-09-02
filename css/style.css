@@ -60,11 +60,11 @@ Text Domain:
 }
 
 .spacing {
-    padding: 100px 10px;
+    padding: 100px 0;
 }
 
 .light-spacing {
-    padding: 50px 10px;
+    padding: 50px 0;
 }
 
 .vertical-align {
@@ -87,9 +87,15 @@ Text Domain:
     -o-transform: translateY(-50%);
 }
 
+/* NAVBAR */
+.navbar {
+    height: 100px;
+    background-color: #fff;
+}
+
 /* BANNER */
 .banner {
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
 }
 
 .banner::before {
@@ -103,6 +109,24 @@ Text Domain:
     background-size: cover;
     will-change: transform;
     z-index: -1;
+}
+
+.banner h1 {
+    font-family: 'CovesBold', sans-serif;
+    font-size: 7.2vw;
+    position: relative;
+}
+
+.banner h1::after {
+    content: '';
+    display: block;
+    width: ;
+}
+
+@media(min-width: 1800px) {
+    .banner h1 {
+        font-size: 130px;
+    }
 }
 
 /* WHY US */
@@ -134,4 +158,81 @@ Text Domain:
     position: relative;
     left: -180px;
     top: -50px;
+}
+
+.why-us .col-sm-4 {
+    color: #003333;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.why-us .col-sm-4 h3 {
+    font-family: 'CovesBold', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    max-width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.why-us .row {
+    overflow: hidden;
+}
+
+.why-us div[class*=col-] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.why-us .col-sm-4 p {
+    font-family: 'MyriadProBold', sans-serif;
+    font-size: 16px;
+    max-width: 260px;
+    margin: 0 auto 15px auto;
+}
+
+.why-us .col-sm-4 p:nth-last-of-type(1) {
+    /*margin-bottom: 150px;*/
+}
+
+.why-us .col-sm-4:nth-of-type(1) {
+    background-color: #c8dbac;
+}
+
+.why-us .col-sm-4:nth-of-type(2) {
+    background-color: #999;
+}
+
+.why-us .col-sm-4:nth-of-type(3) {
+    background-color: #c5db94;
+}
+
+.why-us .col-sm-4 img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    max-width: calc(100% + 60px);
+    margin-bottom: -14vw;
+}
+
+.why-us .col-sm-4:nth-of-type(1) img {
+    left: -25%;
+}
+
+.why-us .col-sm-4:nth-of-type(2) img {
+    max-width: 100%;
+}
+
+.why-us .col-sm-4:nth-of-type(3) img {
+    left: 25%;
+}
+
+@media(max-width: 767px) {
+    .why-us .col-sm-4 img {
+        max-width: 350px;
+        width: 100%;
+        margin-bottom: -24vw;
+    }
 }

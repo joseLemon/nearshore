@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row no-margin vertical-align-abs">
                 <div class="col-sm-6 text-right">
-                    <h1 class="white">Neashore</h1>
+                    <h1 class="white">Nearshore</h1>
                 </div>
                 <div class="col-sm-6">
                     <p class="white">
@@ -43,6 +43,7 @@
                 <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                 </p>
+                <img src="img/decoration/1.png" alt="text bubble">
             </div>
             <div class="col-sm-4">
                 <h3>Cusomized development</h3>
@@ -52,6 +53,7 @@
                 <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                 </p>
+                <img src="img/decoration/2.png" alt="pencil">
             </div>
             <div class="col-sm-4">
                 <h3>Specialized equipment</h3>
@@ -61,6 +63,7 @@
                 <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                 </p>
+                <img src="img/decoration/3.png" alt="cogs">
             </div>
         </div>
     </div>
