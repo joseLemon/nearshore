@@ -29,13 +29,15 @@
 
         <!-- ================================== -->
         <div class="why-us site-section white-bg light-spacing" id="why-us">
-            <div class="container">
-                <h1 class="heading black">
-                    WHY US?
-                </h1>
-                <h2 class="jumbo-shadow">
-                    why us?
-                </h2>
+            <div class="row no-margin">
+                <div class="col-sm-12">
+                    <h1 class="heading black">
+                        WHY US?
+                    </h1>
+                    <h2 class="jumbo-shadow">
+                        why us?
+                    </h2>
+                </div>
             </div>
             <div class="row no-margin text-center eq-height-cols">
                 <div class="col-sm-4">
@@ -117,13 +119,136 @@
         <div class="services site-section white-bg" id="services">
             <div class="row no-margin eq-height-cols-table">
                 <div class="col-sm-5">
-                    <h1>SERVICES</h1>
+                    <h1 class="heading">SERVICES</h1>
                     <h2 class="jumbo-shadow">
                         Services
                     </h2>
                 </div>
                 <div class="col-sm-7">
+                    <div class="row no-margin services-gallery text-center eq-height-cols-table">
+                        <div class="col-sm-6">
+                            <div class="img-container">
+                                <div class="img-bg" style="background: url('img/services/1.jpg') no-repeat center center;">
+                                    <div class="img-caption">
+                                        <p class="vertical-align">Lorem ipsum</p>
+                                    </div>
+                                    <div class="img-text">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="img-container">
+                                <div class="img-bg" style="background: url('img/services/2.jpg') no-repeat center center;">
+                                    <div class="img-caption">
+                                        <p class="vertical-align">Lorem ipsum</p>
+                                    </div>
+                                    <div class="img-text">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-margin services-gallery text-center eq-height-cols-table">
+                        <div class="col-sm-6">
+                            <div class="img-container">
+                                <div class="img-bg" style="background: url('img/services/3.jpg') no-repeat center center;">
+                                    <div class="img-caption">
+                                        <p class="vertical-align">Lorem ipsum</p>
+                                    </div>
+                                    <div class="img-text">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="img-container">
+                                <div class="img-bg" style="background: url('img/services/4.jpg') no-repeat center center;">
+                                    <div class="img-caption">
+                                        <p class="vertical-align">Lorem ipsum</p>
+                                    </div>
+                                    <div class="img-text">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================================== -->
 
+    <!-- ///////////  HIGH-TECH  \\\\\\\\\\\ -->
+
+    <!-- ================================== -->
+    <div class="high-tec site-section black-bg" id="high-tech">
+        <div class="row no-margin eq-height-cols-table">
+            <div class="col-sm-5">
+                <h1 class="heading white">HIGH-TECH</h1>
+                <h2 class="jumbo-shadow white">
+                    high-tech
+                </h2>
+            </div>
+            <div class="col-sm-7">
+                <div class="img-bg">
+                    <div class="box-container spacing">
+                        <div class="white-box text-center">
+                            "Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed doeiusmod tempor incididunt
+                            ut labore et doloex ea commodo consequat. Duis
+                            aute irure dolorin reprehenderit involuptate velit
+                            esse cillu eu fugiat nulla pariatur. Excepteursint
+                            occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt itation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================================== -->
+
+    <!-- ///////////  HIGH-TECH  \\\\\\\\\\\ -->
+
+    <!-- ================================== -->
+    <div class="contact" id="contact">
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/backgrounds/coontact.jpg" alt="Contact Background">
+            </div>
+            <div class="container">
+                <h1 class="heading">CONTACT</h1>
+                <h2 class="jumbo-shadow">
+                    contact
+                </h2>
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="text" name="email" id="email" placeholder="E-mail">
+                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
                 </div>
             </div>
         </div>

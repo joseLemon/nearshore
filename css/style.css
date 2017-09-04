@@ -29,6 +29,7 @@ Text Domain:
 /* GENERAL STYLES */
 .content {
     background-color: #fff;
+    overflow: hidden;
 }
 
 .no-margin {
@@ -97,10 +98,9 @@ Text Domain:
 
 .eq-height-cols {
     overflow: hidden;
-
 }
 
-.eq-height-cols div[class*=col-] {
+.eq-height-cols>div[class*=col-] {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
@@ -111,16 +111,21 @@ Text Domain:
     table-layout: fixed;
 }
 
-.eq-height-cols-table div[class*=col-] {
+.eq-height-cols-table>div[class*=col-] {
     display: table-cell;
     vertical-align: middle;
     float: none;
+}
+
+.img-bg {
+    background-size: cover!important;
 }
 
 /* NAVBAR */
 .navbar {
     height: 100px;
     background-color: #fff;
+    border-radius: 0;
 }
 
 /* BANNER */
@@ -187,6 +192,8 @@ Text Domain:
 
 /* WHY US */
 .why-us .heading {
+    padding-left: 30px;
+    position: relative;
 }
 
 .why-us .heading:before,
@@ -196,14 +203,14 @@ Text Domain:
     top: -37px;
 }
 .why-us .heading:before {
-    left: 135px;
+    left: 165px;
     height: 38px;
     width: 130px;
     border-left: 4px solid #99cc33;
     border-top: 4px solid #99cc33;
 }
 .why-us .heading:after {
-    left: 193px;
+    left: 223px;
     height: 60px;
     width: 72px;
     border-right: 4px solid #99cc33;
@@ -212,8 +219,8 @@ Text Domain:
 
 .why-us .jumbo-shadow {
     position: relative;
-    left: -180px;
-    top: -50px;
+    /*left: -180px;
+    top: -50px;*/
 }
 
 .why-us .col-sm-4 {
@@ -329,7 +336,6 @@ Text Domain:
 .why-mex .img-bg {
     width: 100%;
     background: url("../img/backgrounds/desk.jpg") no-repeat center center;
-    background-size: cover!important;
 }
 .why-mex .box-container {
     z-index: 1;
@@ -345,7 +351,7 @@ Text Domain:
     padding: 120px 35px;
     margin: 0 auto;
     max-width: 1170px;
-    text-shadow: 0 0 .5px #000;
+    text-shadow: 0 0 1px #000;
 }
 
 /* SERVICES */
@@ -355,12 +361,220 @@ Text Domain:
 
 .services h1 {
     padding-left: 30px;
+    position: relative;
+}
+
+.services h1:before,
+.services h1:after {
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+.services h1:before {
+    top: -68px;
+    left: 226px;
+    height: 70px;
+    width: 90px;
+    border-left: 4px solid #99cc33;
+    border-top: 4px solid #99cc33;
+}
+
+.services h1:after {
+    top: -64px;
+    left: 242px;
+    height: 86px;
+    width: 74px;
+    border-right: 4px solid #99cc33;
+    border-bottom: 4px solid #99cc33;
+}
+
+.services .col-sm-7 {
+    padding: 0;
+    width: 58.51%;
+}
+
+.services .services-gallery .col-sm-6 {
+    padding: 0;
+}
+
+.services .img-bg {
+    /*min-height: 300px;*/
+}
+
+.services .img-bg .img-caption {
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    font-family: 'ModernM', sans-serif;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    width: 100%;
+}
+
+.services .img-text {
+    position: relative;
+    width: 100%;
+    background-color: #abce6e;
+    z-index: 1;
+    left: 0;
+    padding: 50px 30px;
+    font-family: 'CovesBold', sans-serif;
+    font-size: 17px;
+    text-shadow: 0 0 1px #000;
+    opacity: 0;
+    transition: opacity 300ms ease;
+    line-height: 26px;
+}
+
+.services .img-text p {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.services .img-text:hover {
+    opacity: 1;
+}
+
+/* HIGH-TECH */
+.high-tec {
+
+}
+
+.high-tec h1 {
+    padding-left: 65px;
+    position: relative;
+}
+
+.high-tec h1:before,
+.high-tec h1:after {
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+.high-tec h1:before {
+    top: -50px;
+    left: 0;
+    height: 53px;
+    width: 84px;
+    border-right: 4px solid #99cc33;
+    border-top: 4px solid #99cc33;
+}
+
+.high-tec h1:after {
+    top: -46px;
+    left: 0;
+    height: 100px;
+    width: 84px;
+    border-left: 4px solid #99cc33;
+    border-bottom: 4px solid #99cc33;
+}
+
+.high-tec h2 {
+    white-space: nowrap;
+}
+
+.high-tec .col-sm-7 {
+    padding: 0;
+}
+
+.high-tec .img-bg {
+    width: 100%;
+    background: url("../img/backgrounds/pit.jpg") no-repeat center center;
+}
+.high-tec .box-container {
+    z-index: 1;
+    right: calc(100% - 40vw);
+    position: relative;
+    width: 100%;
+}
+
+.high-tec .white-box {
+    font-family: 'ModernM', sans-serif;
+    font-size: 16px;
+    background-color: rgba(255,255,255,.8);
+    padding: 120px 35px;
+    margin: 0 auto;
+    max-width: 1170px;
+    text-shadow: 0 0 1px #000;
+}
+
+/***** Parallax CSS *****/
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    height: auto;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    min-width: 1920px;
+    min-height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+/* CONTACT */
+.contact {
+    position: relative;
+}
+
+.contact .container {
+    position: static;
+}
+
+.contact h1 {
+    left: 0;
 }
 
 @media(max-width: 767px) {
+    .eq-height-cols>div[class*=col-] {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .eq-height-cols-table {
+        display: block;
+    }
+    .eq-height-cols-table>div[class*=col-] {
+        display: block;
+    }
+    .why-us .col-sm-4 {
+        overflow: hidden;
+    }
     .why-us .col-sm-4 img {
-        max-width: 350px;
+        position: absolute;
+        max-width: 350px!important;
         width: 100%;
-        margin-bottom: -24vw;
+        left: 0!important;
+        right: 0!important;
+        margin: 0 auto;
+    }
+    .why-mex .col-sm-5 {
+        padding: 80px 10px 20px 10px;
+    }
+    .why-mex .box-container {
+        right: 0;
+    }
+    .services .col-sm-7 {
+        width: 100%;
+    }
+    .high-tec .col-sm-5 {
+        padding: 80px 10px 20px 10px;
+    }
+    .high-tec .box-container {
+        right: 0;
     }
 }
