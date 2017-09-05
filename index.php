@@ -233,21 +233,27 @@
 
     <!-- ================================== -->
     <div class="contact" id="contact">
+        <span class="green-line vertical-align-abs"></span>
         <div class="parallax-container">
             <div class="parallax">
                 <img src="img/backgrounds/coontact.jpg" alt="Contact Background">
             </div>
-            <div class="container">
-                <h1 class="heading">CONTACT</h1>
-                <h2 class="jumbo-shadow">
-                    contact
-                </h2>
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6">
-                    <form action="">
+            <div class="row no-margin eq-height-cols-table">
+                <div class="col-sm-5">
+                    <h1 class="heading">CONTACT</h1>
+                    <h2 class="jumbo-shadow">
+                        contact
+                    </h2>
+                </div>
+                <div class="col-sm-7">
+                    <form action="mailer.php" id="contact-form">
                         <input type="text" name="name" id="name" placeholder="Name">
-                        <input type="text" name="email" id="email" placeholder="E-mail">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
                         <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                        <div class="text-right">
+                            <input type="submit" value="SEND" id="form-submit">
+                        </div>
+                        <div id="form-output"></div>
                     </form>
                 </div>
             </div>

@@ -39,6 +39,7 @@ Text Domain:
 .site-section {
     background-color: #fff;
     background-size: cover!important;
+    overflow: hidden;
 }
 
 .site-section.white-bg {
@@ -126,12 +127,15 @@ Text Domain:
     height: 100px;
     background-color: #fff;
     border-radius: 0;
+    margin: 0;
 }
 
 /* BANNER */
 .banner {
     font-family: 'CovesBold', sans-serif;
-    min-height: calc(100vh - 100px);
+    height: calc(100vh - 100px);
+    min-height: 500px;
+    position: relative;
 }
 
 .banner .container {
@@ -152,11 +156,6 @@ Text Domain:
     z-index: -1;
 }
 
-.banner .row {
-    display: table;
-    width: 100%;
-}
-
 .banner div[class*=col-] {
     display: table-cell;
     vertical-align: middle;
@@ -165,6 +164,7 @@ Text Domain:
 
 .banner h1 {
     font-size: 7.2vw;
+    margin: 15px;
 }
 
 .banner h1:after {
@@ -500,6 +500,119 @@ Text Domain:
     text-shadow: 0 0 1px #000;
 }
 
+/* CONTACT */
+.contact {
+    position: relative;
+}
+
+.contact:before,
+.contact:after {
+    content: '';
+    position: absolute;
+    display: block;
+    margin: 50px;
+    pointer-events: none;
+}
+
+.contact:before {
+    top: 0;
+    right: 0;
+    height: calc(40% - 100px);
+    width: 70vw;
+    border-left: 4px solid #99cc33;
+    border-top: 4px solid #99cc33;
+    border-right: 4px solid #99cc33;
+}
+
+.contact:after {
+    bottom: 0;
+    right: 0;
+    height: calc(43% - 100px);
+    width: 70vw;
+    border-left: 4px solid #99cc33;
+    border-bottom: 4px solid #99cc33;
+    border-right: 4px solid #99cc33;
+    margin: 50px;
+}
+
+.contact .green-line {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    border-right: 4px solid #99cc33;
+    display: block;
+    height: 35%;
+}
+
+.contact .container {
+    position: static;
+}
+
+.contact h1 {
+    padding-left: 65px;
+}
+
+.contact form {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 80px 80px 80px 15px;
+}
+
+.contact input[type=text],
+.contact input[type=email],
+.contact textarea {
+    font-size: 24px;
+    font-family: 'ModernM', sans-serif;
+    padding-left: 5px;
+    border: 0;
+    outline: none!important;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact input[type=text],
+.contact input[type=email] {
+    background-color: transparent;
+    border-bottom: 2px solid #333;
+    width: 100%;
+}
+
+.contact input[type=submit] {
+    border: 0;
+    margin-bottom: 30px;
+    background-color: #99cc33;
+    font-family: 'CovesBold', sans-serif;
+    font-size: 22px;
+    padding: 5px 30px;
+    transition: all 300ms ease;
+}
+
+.contact input[type=submit]:hover {
+    background-color: #87b32d;
+}
+
+.contact textarea {
+    background-color: rgba(51,51,51,.6);
+    resize: vertical;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #333;
+    opacity: .6;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #333;
+    opacity: .6;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #333;
+    opacity: .6;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #333;
+    opacity: .6;
+}
+
 /***** Parallax CSS *****/
 .parallax-container {
     position: relative;
@@ -527,19 +640,6 @@ Text Domain:
     background-position: center;
 }
 
-/* CONTACT */
-.contact {
-    position: relative;
-}
-
-.contact .container {
-    position: static;
-}
-
-.contact h1 {
-    left: 0;
-}
-
 @media(max-width: 767px) {
     .eq-height-cols>div[class*=col-] {
         margin-bottom: 0;
@@ -550,6 +650,22 @@ Text Domain:
     }
     .eq-height-cols-table>div[class*=col-] {
         display: block;
+    }
+    .banner .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .banner div[class*=col-] {
+        text-align: center;
+    }
+    .banner h1:after {
+        left: 0;
+        top: auto;
+        bottom: -10px;
+        display: block;
+        height: 4px;
+        width: 240px;
+        margin: 0 auto;
     }
     .why-us .col-sm-4 {
         overflow: hidden;
@@ -568,6 +684,9 @@ Text Domain:
     .why-mex .box-container {
         right: 0;
     }
+    .services .col-sm-5 {
+        padding: 100px 10px 0 10px;
+    }
     .services .col-sm-7 {
         width: 100%;
     }
@@ -576,5 +695,24 @@ Text Domain:
     }
     .high-tec .box-container {
         right: 0;
+    }
+    .contact .row {
+        padding: 15px;
+    }
+    .contact:before {
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+        margin: 15px;
+        border-bottom: 4px solid #99cc33;
+    }
+    .contact:after,
+    .contact .green-line {
+        display: none;
+    }
+    .contact .col-sm-5 {
+        padding: 80px 10px 0px 10px;
+    }
+    .contact form {
+        padding: 0;
     }
 }
