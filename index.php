@@ -8,7 +8,7 @@
         <div class="container vertical-align-abs">
             <div class="row no-margin eq-height-cols-table">
                 <div class="col-sm-6 text-right">
-                    <h1 class="white">Nearshore</h1>
+                    <h1 class="white">Codeshore</h1>
                 </div>
                 <div class="col-sm-6">
                     <div class="right-side-text">
