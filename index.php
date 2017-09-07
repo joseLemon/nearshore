@@ -13,9 +13,7 @@
                 <div class="col-sm-6">
                     <div class="right-side-text">
                         <p class="white">
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit,
-                            eiusmod tempor incididunt.
+                            Dedicated to satisfy your needs in the digital world, Offshore.
                         </p>
                     </div>
                 </div>
@@ -29,8 +27,8 @@
 
         <!-- ================================== -->
         <div class="why-us site-section white-bg light-spacing" id="why-us">
-            <div class="row no-margin">
-                <div class="col-sm-12">
+            <div class="row no-margin eq-height-cols-table">
+                <div class="col-sm-5">
                     <h1 class="heading black">
                         WHY US?
                     </h1>
@@ -38,35 +36,39 @@
                         why us?
                     </h2>
                 </div>
+                <div class="col-sm-7">
+                    <div class="img-bg">
+                        <div class="box-container spacing">
+                            <div class="box white-box-light text-center">
+                                We can provide the same quality of work as any IT engineer in the US but at a much
+                                affordable cost. Being so close to the US both via land and airplane, gives us
+                                advantage to travel over there in case it's needed. International agreements like
+                                NAFTA makes our countries easily to protect data and information since we have an
+                                agreement for intellectual property and data privacy.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row no-margin text-center eq-height-cols">
                 <div class="col-sm-4">
                     <h3>Multilingual</h3>
                     <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
-                    <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        Everyone in CodeShore can speak English and Spanish so we could give you the attention and customer service you need in your own language.
                     </p>
                     <img src="img/decoration/1.png" alt="text bubble">
                 </div>
                 <div class="col-sm-4">
                     <h3>Cusomized development</h3>
                     <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
-                    <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        Because we know each company is different, we deliver solutions developed to satisfy your unique needs with assistance any time you want.
                     </p>
                     <img src="img/decoration/2.png" alt="pencil">
                 </div>
                 <div class="col-sm-4">
                     <h3>Specialized equipment</h3>
                     <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
-                    <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        We work with the latest technologies to help us work faster and smarter, also we count with our own servers for hosting making it secure.
                     </p>
                     <img src="img/decoration/3.png" alt="cogs">
                 </div>
@@ -93,18 +95,12 @@
                 <div class="col-sm-7">
                     <div class="img-bg">
                         <div class="box-container spacing">
-                            <div class="white-box text-center">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum."
-                                <br>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation.
+                            <div class="box white-box text-center">
+                                We can provide the same quality of work as any IT engineer in the US but at a much
+                                affordable cost. Being so close to the US both via land and airplane, gives us
+                                advantage to travel over there in case it's needed. International agreements like
+                                NAFTA makes our countries easily to protect data and information since we have an
+                                agreement for intellectual property and data privacy.
                             </div>
                         </div>
                     </div>
@@ -126,69 +122,57 @@
                 </div>
                 <div class="col-sm-7">
                     <div class="row no-margin services-gallery text-center eq-height-cols-table">
-                        <div class="col-sm-6">
-                            <div class="img-container">
-                                <div class="img-bg" style="background: url('img/services/1.jpg') no-repeat center center;">
-                                    <div class="img-caption">
-                                        <p class="vertical-align">Lorem ipsum</p>
-                                    </div>
-                                    <div class="img-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        </p>
-                                    </div>
+                        <div class="col-sm-6" style="background: url('img/services/1.jpg') no-repeat center center;">
+                            <div class="img-bg">
+                                <div class="img-caption">
+                                    <p class="vertical-align">Data Intelligence</p>
+                                </div>
+                                <div class="img-text vertical-align-abs">
+                                    <p class="vertical-align">
+                                        We process and analyze data sent from your customers to deliver it to you in an
+                                        easy way to read and understand.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="img-container">
-                                <div class="img-bg" style="background: url('img/services/2.jpg') no-repeat center center;">
-                                    <div class="img-caption">
-                                        <p class="vertical-align">Lorem ipsum</p>
-                                    </div>
-                                    <div class="img-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        </p>
-                                    </div>
+                        <div class="col-sm-6" style="background: url('img/services/2.jpg') no-repeat center center;">
+                            <div class="img-bg">
+                                <div class="img-caption">
+                                    <p class="vertical-align">Web Development</p>
+                                </div>
+                                <div class="img-text vertical-align-abs">
+                                    <p class="vertical-align">
+                                        We design and develop Apps, Web pages and E-Commerce integrated with SEO for
+                                        your clients to find you easily in the digital world.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row no-margin services-gallery text-center eq-height-cols-table">
-                        <div class="col-sm-6">
-                            <div class="img-container">
-                                <div class="img-bg" style="background: url('img/services/3.jpg') no-repeat center center;">
-                                    <div class="img-caption">
-                                        <p class="vertical-align">Lorem ipsum</p>
-                                    </div>
-                                    <div class="img-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        </p>
-                                    </div>
+                        <div class="col-sm-6" style="background: url('img/services/3.jpg') no-repeat center center;">
+                            <div class="img-bg">
+                                <div class="img-caption">
+                                    <p class="vertical-align">Enterprise Apps</p>
+                                </div>
+                                <div class="img-text vertical-align-abs">
+                                    <p class="vertical-align">
+                                        We develop enterprise programs such as ERP and CRMs to help you manage your
+                                        company and clients seamlessly.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="img-container">
-                                <div class="img-bg" style="background: url('img/services/4.jpg') no-repeat center center;">
-                                    <div class="img-caption">
-                                        <p class="vertical-align">Lorem ipsum</p>
-                                    </div>
-                                    <div class="img-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        </p>
-                                    </div>
+                        <div class="col-sm-6" style="background: url('img/services/4.jpg') no-repeat center center;">
+                            <div class="img-bg">
+                                <div class="img-caption">
+                                    <p class="vertical-align">Digital Strategy</p>
+                                </div>
+                                <div class="img-text vertical-align-abs">
+                                    <p class="vertical-align">
+                                        We create a digital strategy for your company based on targeting based on your
+                                        company goals.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +197,7 @@
             <div class="col-sm-7">
                 <div class="img-bg">
                     <div class="box-container spacing">
-                        <div class="white-box text-center">
+                        <div class="box white-box text-center">
                             "Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit, sed doeiusmod tempor incididunt
                             ut labore et doloex ea commodo consequat. Duis

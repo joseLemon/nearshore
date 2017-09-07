@@ -155,6 +155,37 @@ Text Domain:
     float: none;
 }
 
+.box-container {
+    z-index: 1;
+    right: calc(100% - 40vw);
+    position: relative;
+    width: 100%;
+}
+
+.box {
+    font-family: 'ModernM', sans-serif;
+    font-size: 16px;
+    padding: 120px 35px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.box.white-box {
+    background-color: rgba(255,255,255,.8);
+    text-shadow: 0 0 1px #000;
+}
+
+.box.white-box-light {
+    background-color: rgba(255,255,255,.5);
+    text-shadow: 0 0 1px #000;
+}
+
+.box.black-box {
+    background-color: rgba(0,0,0,.8);
+    text-shadow: 0 0 1px #fff;
+    color: #fff;
+}
+
 .img-bg {
     background-size: cover!important;
 }
@@ -304,10 +335,6 @@ Text Domain:
 }
 
 /* WHY US */
-.why-us .col-sm-12 {
-    padding: 50px 0;
-}
-
 .why-us .heading {
     padding-left: 30px;
     position: relative;
@@ -336,6 +363,7 @@ Text Domain:
 
 .why-us .jumbo-shadow {
     position: relative;
+    white-space: nowrap;
     /*left: -180px;
     top: -50px;*/
 }
@@ -454,22 +482,6 @@ Text Domain:
     width: 100%;
     background: url("../img/backgrounds/desk.jpg") no-repeat center center;
 }
-.why-mex .box-container {
-    z-index: 1;
-    right: calc(100% - 40vw);
-    position: relative;
-    width: 100%;
-}
-
-.why-mex .white-box {
-    font-family: 'ModernM', sans-serif;
-    font-size: 16px;
-    background-color: rgba(255,255,255,.8);
-    padding: 120px 35px;
-    margin: 0 auto;
-    max-width: 1170px;
-    text-shadow: 0 0 1px #000;
-}
 
 /* SERVICES */
 .services {
@@ -513,10 +525,12 @@ Text Domain:
 
 .services .services-gallery .col-sm-6 {
     padding: 0;
+    background-size: cover!important;
 }
 
 .services .img-bg {
-    /*min-height: 300px;*/
+    min-height: 300px;
+    position: relative;
 }
 
 .services .img-bg .img-caption {
@@ -527,11 +541,12 @@ Text Domain:
     font-size: 17px;
     position: absolute;
     width: 100%;
+    top: 0;
 }
 
 .services .img-text {
-    position: relative;
     width: 100%;
+    height: 100%;
     background-color: #abce6e;
     z-index: 1;
     left: 0;
@@ -599,22 +614,6 @@ Text Domain:
 .high-tec .img-bg {
     width: 100%;
     background: url("../img/backgrounds/pit.jpg") no-repeat center center;
-}
-.high-tec .box-container {
-    z-index: 1;
-    right: calc(100% - 40vw);
-    position: relative;
-    width: 100%;
-}
-
-.high-tec .white-box {
-    font-family: 'ModernM', sans-serif;
-    font-size: 16px;
-    background-color: rgba(255,255,255,.8);
-    padding: 120px 35px;
-    margin: 0 auto;
-    max-width: 1170px;
-    text-shadow: 0 0 1px #000;
 }
 
 /* CONTACT */
@@ -781,6 +780,9 @@ footer p {
     .eq-height-cols-table>div[class*=col-] {
         display: block;
     }
+    .box-container {
+        right: 0;
+    }
     .navbar {
         height: 50px;
         transform: translateZ(0);
@@ -904,11 +906,11 @@ footer p {
         right: 0!important;
         margin: 0 auto;
     }
+    .why-us .col-sm-5 {
+        padding: 50px 10px 0px 10px;
+    }
     .why-mex .col-sm-5 {
         padding: 80px 10px 20px 10px;
-    }
-    .why-mex .box-container {
-        right: 0;
     }
     .services .col-sm-5 {
         padding: 100px 10px 0 10px;
@@ -918,9 +920,6 @@ footer p {
     }
     .high-tec .col-sm-5 {
         padding: 80px 10px 20px 10px;
-    }
-    .high-tec .box-container {
-        right: 0;
     }
     .contact .row {
         padding: 15px;
