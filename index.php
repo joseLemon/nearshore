@@ -40,11 +40,9 @@
                     <div class="img-bg">
                         <div class="box-container spacing">
                             <div class="box white-box-light text-center">
-                                We can provide the same quality of work as any IT engineer in the US but at a much
-                                affordable cost. Being so close to the US both via land and airplane, gives us
-                                advantage to travel over there in case it's needed. International agreements like
-                                NAFTA makes our countries easily to protect data and information since we have an
-                                agreement for intellectual property and data privacy.
+                                We are a team of IT engineers, and strategic marketing graduates from the top business
+                                school in Mexico and one of the best in Latin America. Situtated in Chihuahua, Mexico,
+                                our company is positioned in an strategic geographic location for our US customers.
                             </div>
                         </div>
                     </div>
