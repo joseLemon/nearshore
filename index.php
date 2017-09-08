@@ -54,12 +54,12 @@
                 <div class="col-sm-4">
                     <h3>Multilingual</h3>
                     <p>
-                        Everyone in CodeShore can speak English and Spanish so we could give you the attention and customer service you need in your own language.
+                        Everyone in CodeShore can speak English and Spanish so we will give you the attention and customer service you need in your own language.
                     </p>
                     <img src="img/decoration/1.png" alt="text bubble">
                 </div>
                 <div class="col-sm-4">
-                    <h3>Cusomized development</h3>
+                    <h3>Customized development</h3>
                     <p>
                         Because we know each company is different, we deliver solutions developed to satisfy your unique needs with assistance any time you want.
                     </p>
@@ -183,28 +183,22 @@
     </div>
     <!-- ================================== -->
 
-    <!-- ///////////  HIGH-TECH  \\\\\\\\\\\ -->
+    <!-- ///////////  STAFFING  \\\\\\\\\\\ -->
 
     <!-- ================================== -->
-    <div class="high-tec site-section black-bg" id="high-tech">
+    <div class="staffing site-section black-bg" id="staffing">
         <div class="row no-margin eq-height-cols-table">
             <div class="col-sm-5">
-                <h1 class="heading white">HIGH-TECH</h1>
+                <h1 class="heading white">STAFFING</h1>
                 <h2 class="jumbo-shadow white">
-                    high-tech
+                    staffing
                 </h2>
             </div>
             <div class="col-sm-7">
                 <div class="img-bg">
                     <div class="box-container spacing">
                         <div class="box white-box text-center">
-                            "Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed doeiusmod tempor incididunt
-                            ut labore et doloex ea commodo consequat. Duis
-                            aute irure dolorin reprehenderit involuptate velit
-                            esse cillu eu fugiat nulla pariatur. Excepteursint
-                            occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt itation.
+                            Ever wanted a complete IT department but it’s too costly? We want to help you with that. With our staffing option, having an IT team has never been easier, we will dedicate a team of engineers chosen by you and us depending in your needs to work on your projects from our offices here in Mexico. You will be in communication with them as if they were your own employees without being worried with employer-employee contracts. We have direct relationship with universities and technological parks to search for the candidates you’re looking for.
                         </div>
                     </div>
                 </div>
@@ -213,7 +207,7 @@
     </div>
     <!-- ================================== -->
 
-    <!-- ///////////  HIGH-TECH  \\\\\\\\\\\ -->
+    <!-- ///////////  STAFFING  \\\\\\\\\\\ -->
 
     <!-- ================================== -->
     <div class="contact" id="contact">

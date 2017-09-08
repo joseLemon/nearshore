@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nearshore</title>
+    <title>Codeshore</title>
+    <link rel="icon" href="img/icon.ico" type="image/x-icon" />
     <!-- ================================== -->
 
     <!-- ///////////  CSS  \\\\\\\\\\\ -->
@@ -34,7 +35,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                 <span>Toggle Navbar</span>
             </button>
-            <a class="navbar-brand smoothscroll" href="#"><img src="img/logo.png" alt="Codeshore" class="white"><img src="img/logo-inv.png" alt="Codeshore" class="black"></a>
+            <a class="navbar-brand smoothscroll" href="#"><img src="img/logosub.png" alt="Codeshore" class="white vertical-align"><img src="img/logosub.png" alt="Codeshore" class="black vertical-align"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,7 +45,7 @@
                 <li><a href="#why-us" class="smoothscroll vertical-align">WHY US?</a></li>
                 <li><a href="#why-mex" class="smoothscroll vertical-align">WHY MEXICO?</a></li>
                 <li><a href="#services" class="smoothscroll vertical-align">SERVICES</a></li>
-                <li><a href="#high-tech" class="smoothscroll vertical-align">HIGH TECH</a></li>
+                <li><a href="#staffing" class="smoothscroll vertical-align">STAFFING</a></li>
                 <li><a href="#contact" class="smoothscroll vertical-align">CONTACT</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->

@@ -164,7 +164,7 @@ Text Domain:
 
 .box {
     font-family: 'ModernM', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     padding: 120px 35px;
     margin: 0 auto;
     max-width: 1170px;
@@ -249,7 +249,7 @@ Text Domain:
 }
 
 .navbar-brand img {
-    height: 100%;
+    height: calc(100% - 10px);
 }
 
 .navbar-nav>li {
@@ -258,14 +258,15 @@ Text Domain:
     -moz-transition: height 300ms ease;
     transition: height 300ms ease;
 }
+
 .navbar-nav>li>a {
     color: #fff!important;
     border: 2px solid transparent;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    -webkit-transition: border 300ms ease, color 300ms ease;
-    -moz-transition: border 300ms ease, color 300ms ease;
-    transition: border 300ms ease, color 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
 }
 
 .navbar-nav>li>a:hover,
@@ -386,7 +387,7 @@ Text Domain:
 
 .why-us .col-sm-4 p {
     font-family: 'MyriadProBold', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     max-width: 260px;
     margin: 0 auto 15px auto;
 }
@@ -538,7 +539,7 @@ Text Domain:
     background-color: rgba(0,0,0,.6);
     font-family: 'ModernM', sans-serif;
     color: #fff;
-    font-size: 17px;
+    font-size: 22px;
     position: absolute;
     width: 100%;
     top: 0;
@@ -552,7 +553,7 @@ Text Domain:
     left: 0;
     padding: 50px 30px;
     font-family: 'CovesBold', sans-serif;
-    font-size: 17px;
+    font-size: 22px;
     text-shadow: 0 0 1px #000;
     opacity: 0;
     transition: opacity 300ms ease;
@@ -568,24 +569,24 @@ Text Domain:
     opacity: 1;
 }
 
-/* HIGH-TECH */
-.high-tec {
+/* STAFFING */
+.staffing {
 
 }
 
-.high-tec h1 {
+.staffing h1 {
     padding-left: 65px;
     position: relative;
 }
 
-.high-tec h1:before,
-.high-tec h1:after {
+.staffing h1:before,
+.staffing h1:after {
     content: '';
     position: absolute;
     display: block;
 }
 
-.high-tec h1:before {
+.staffing h1:before {
     top: -50px;
     left: 0;
     height: 53px;
@@ -594,7 +595,7 @@ Text Domain:
     border-top: 4px solid #99cc33;
 }
 
-.high-tec h1:after {
+.staffing h1:after {
     top: -46px;
     left: 0;
     height: 100px;
@@ -603,15 +604,15 @@ Text Domain:
     border-bottom: 4px solid #99cc33;
 }
 
-.high-tec h2 {
+.staffing h2 {
     white-space: nowrap;
 }
 
-.high-tec .col-sm-7 {
+.staffing .col-sm-7 {
     padding: 0;
 }
 
-.high-tec .img-bg {
+.staffing .img-bg {
     width: 100%;
     background: url("../img/backgrounds/pit.jpg") no-repeat center center;
 }
@@ -769,6 +770,12 @@ footer p {
     background-position: center;
 }
 
+@media(max-width: 992px) {
+    .navbar-nav>li>a {
+        padding: 10px;
+    }
+}
+
 @media(max-width: 767px) {
     .eq-height-cols>div[class*=col-] {
         margin-bottom: 0;
@@ -918,7 +925,7 @@ footer p {
     .services .col-sm-7 {
         width: 100%;
     }
-    .high-tec .col-sm-5 {
+    .staffing .col-sm-5 {
         padding: 80px 10px 20px 10px;
     }
     .contact .row {
